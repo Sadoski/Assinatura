@@ -156,7 +156,7 @@ Procure o nome do seu novo atributo, realce e clique em OK.
 
 Clique em OK Novamente
 
-![OK Atibutos](./img/img14.png)
+![OK Atibutos](./img/img014.png)
 
 Aviso: Essas alterações podem levar alguns minutos para entrar em vigor no Active Directory.
 
