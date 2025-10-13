@@ -123,14 +123,15 @@ Se você clicar em continuar, você será solicitado a fornecer as seguintes inf
 ![Alerta](./img/img08.png)
 
 | Campo | Propósito | Necessário? | Anotações |
-| `Nome Comum` | Nome do atributo que está sendo criado. \n \n Isso não pode ser alterado. | ✔ |  |
-| `Nome de exibição LDAP` | Usado para verificar o atributo em pesquisas LDAP. | ✔ | Preenchido automaticamente por Nome Comum. |
-| `ID de objeto X500 exclusivo` | Deve começar com0.,1. ou2. | ✔ | Esse script pode ser usado para gerar um ID de objeto apropriado |
-| `Descrição` | Descrição do atributo. | × |  |
-| `Sintaxe` | Formato do Atributo. | ✔ | Unicode String é recomendado como a opção padrão. |
-| `Mínimo` | Um número mínimo de entradas é necessário para aplicar o atributo a uma conta. | × | Recomendado o uso de um valor binário (64.128 ou 256). |
-| `Máximo` | Um número máximo de entradas que podem ser armazenadas. | × | Recomendado o uso de um valor binário (64.128 ou 256). |
-| `Multivalorado` | Altera o atributo para permitir que ele aceite vários valores. | × | Não recomendado para uso com Produtos Exclaimer. |
+|:------|:-----------|:-------------:|:-----------|
+| **Nome Comum** | Nome do atributo que está sendo criado. <br><br>Isso não pode ser alterado. | ✔ |  |
+| **Nome de exibição LDAP** | Usado para verificar o atributo em pesquisas LDAP. | ✔ | Preenchido automaticamente por **Nome Comum**. |
+| **ID de objeto X500 exclusivo** | Deve começar com `0.`, `1.` ou `2.` | ✔ | Esse script pode ser usado para gerar um ID de objeto apropriado. |
+| **Descrição** | Descrição do atributo. | × |  |
+| **Sintaxe** | Formato do Atributo. | ✔ | `Unicode String` é recomendado como a opção padrão. |
+| **Mínimo** | Um número mínimo de entradas é necessário para aplicar o atributo a uma conta. | × | Recomendado o uso de um valor binário (`64`, `128` ou `256`). |
+| **Máximo** | Um número máximo de entradas que podem ser armazenadas. | × | Recomendado o uso de um valor binário (`64`, `128` ou `256`). |
+| **Multivalorado** | Altera o atributo para permitir que ele aceite vários valores. | × | Não recomendado para uso com produtos **Exclaimer**. |
 
 
 Localize o atributo criado para habilitar a replicação de Catálogo Global e adicionar um novo atributo à Classe de Usuário:
