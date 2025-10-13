@@ -156,7 +156,7 @@ Procure o nome do seu novo atributo, realce e clique em OK.
 
 Clique em OK Novamente
 
-![OK Atibutos](./img/img014.png)
+![OK Atibutos](./img/img14.png)
 
 Aviso: Essas alterações podem levar alguns minutos para entrar em vigor no Active Directory.
 
@@ -164,11 +164,11 @@ Aguarde 15 minutos para garantir que esses campos fiquem disponíveis, após o q
 
 Abra o console Active Directory Users and Computers. Navegue até View e depois selecione a opção Advanced Features.
 
-![Avançado](./img/img015.png)
+![Avançado](./img/img15.png)
 
 Navegue até OU Users, selecione um usuário qualquer e com o botão direito selecione a opção Properties. Navegue até a guia Attribute Editor e confirme que o valor é apresentado.
 
-![Avançado](./img/img016.png)
+![Avançado](./img/img16.png)
 
 
 Assinatura finalizada.
