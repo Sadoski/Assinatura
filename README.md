@@ -164,11 +164,11 @@ Aguarde 15 minutos para garantir que esses campos fiquem disponíveis, após o q
 
 Abra o console Active Directory Users and Computers. Navegue até View e depois selecione a opção Advanced Features.
 
-![Avançado](./img/img15.png)
+![Avançado](./img/img015.png)
 
 Navegue até OU Users, selecione um usuário qualquer e com o botão direito selecione a opção Properties. Navegue até a guia Attribute Editor e confirme que o valor é apresentado.
 
-![Avançado](./img/img16.png)
+![Avançado](./img/img016.png)
 
 
 Assinatura finalizada.
